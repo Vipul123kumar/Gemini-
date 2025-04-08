@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+#root
+{
+  min-height: 100vh;
+  display: flex;
+
+}
+.container
+{
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+padding: 11px;
+
+}
+.data-container
+{
+  height: 75%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.ans
+{
+  padding:9px ;
+}
+ .qns
+{
+  background-color: rgb(223, 211, 211);
+  border-radius: 22px;
+  padding: 11px;
+}
+.input-container
+{
+  width: 80%;
+  height: 20%;
+  border-radius: 22px;
+  
+  border-top: 1px solid silver;
+  background-color: rgb(223,211,211);
+  position: fixed;
+  top: 70%;
+}
+.input-container input{
+  width: 70%;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 40px;
+  outline: none;
+ border-radius: 22px;
+  margin-bottom: 60px;
+ 
+
+}
+.loader
+{
+  text-align: center;
+  margin-top: ;
+}
+.input-container input::placeholder {
+  font-weight: bold;
+  color: black;
+  font-size: 15px; 
+}
+.input-container button{
+  width: 90px;
+  height: 33px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-size: 16px;
+  margin-top: 78px;
+  margin-left: 10px;
+}
