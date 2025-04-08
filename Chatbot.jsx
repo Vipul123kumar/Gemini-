@@ -8,8 +8,7 @@ const Chatbot = () => {
     const[ans,setAns]=useState("Hello, how can i help you !")
     const [loading,setLoading]=useState(false)
 
-    const url=" https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="
-    const API_KEY="AIzaSyAl-YICA7N8-GdnRyo8_yoGhQUA3DAgNCc"
+   
     const sendingData={"contents": [{
         "parts":[{"text": ""}]
         }]}
